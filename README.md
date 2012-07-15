@@ -1,14 +1,14 @@
 Simple GitHub WebHook receiver
 ==============
 
-Simple GitHub WebHook receiver is a very simple, small server-side php script that receives GitHub WebHook requests and then react to them.
+Simple GitHub WebHook receiver is a very simple, small server-side php script that receives and reacts to GitHub WebHook requests.
 
 
 Install
 -------
 After downloading this repo you will need to place the files on the server you intent to receive GitHub WebHook request.  Typically you should place this in its own web folder like: /var/www/deploy.mydomain.com
 
-I normally set it up as a subdomain under a domain I own and update the web server and dns to use setup.  PHP will need to have elevated permissions to utilize the exec function in this script.
+I normally set it up as a subdomain under a domain I own and update the web server and dns to use this setup.  PHP will need to have elevated permissions to utilize the exec function in this script.
 
 Next, you'll need to edit config-sample.php and then save as/rename to config.php.
 
